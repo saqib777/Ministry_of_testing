@@ -24,9 +24,13 @@ This repository is part of a continuous learning initiative to strengthen real-w
 
 All test cases follow a consistent, Excel-compatible format used in **Katalon Studio** and similar tools:
 
-| Sl. No. | DATE       | Application | Test Case ID | Test Case Name                           | Module / Feature  | Test Step No. | Step Description              | Keyword (Action) | Test Object / Element | Input Data                                                                                 | Expected Result         | Actual Result | Status (Pass/Fail) | Comments / Notes | Elapsed time |
-| ------- | ---------- | ----------- | ------------ | ---------------------------------------- | ----------------- | ------------- | ----------------------------- | ---------------- | --------------------- | ------------------------------------------------------------------------------------------ | ----------------------- | ------------- | ------------------ | ---------------- | ------------ |
-| Example | 2025-11-07 | BookCart    | TC_REG_01    | Verify registration page loads correctly | Registration Form | 1             | Navigate to registration page | Open Browser     | URL bar               | [https://bookcart.azurewebsites.net/register](https://bookcart.azurewebsites.net/register) | Form loads successfully | As expected   | Pass               | UI validated     | 5s           |
+| Folder/File | Description |
+|--------------|-------------|
+| **BookCart/** | Contains test cases for [BookCart Azure Application](https://bookcart.azurewebsites.net/). Includes detailed registration and login scenarios. |
+| **Basic_Calculator.md** | Manual test cases designed for [TestSheepNZ Basic Calculator](https://testsheepnz.github.io/BasicCalculator.html). Covers input validation, arithmetic operations, and error handling. |
+| **ParaBank_Admin_Testing.md** | Detailed manual test documentation for [ParaBank Admin Page](https://parabank.parasoft.com/parabank/admin.htm). Includes 30+ test cases covering configuration management, SOAP/JMS service validation, loan provider logic, UI verification, and performance testing. |
+| **README.md** | Repository overview and usage guide. |
+
 
 ---
 
